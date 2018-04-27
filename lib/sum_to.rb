@@ -1,3 +1,12 @@
+# num - The cap of the summation
+#
+# Example
+#
+# sum_to(10)
+# #=> 55
+#
+# Returns the sum of all numbers before num
+
 def sum_to(num)
     i = num
     output = 0

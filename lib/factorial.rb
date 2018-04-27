@@ -1,3 +1,12 @@
+# num - interger to act as factorial start
+#
+# Example
+#
+# factorial(5)
+# #=> 120
+#
+# Returns factorial of num
+
 def factorial(num)
     i = num
     output = 1
@@ -8,4 +17,4 @@ def factorial(num)
     return output
 end
 
-p factorial(10)
+p factorial(5)

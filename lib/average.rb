@@ -1,3 +1,10 @@
+# arr - Array to get averaged
+#
+# Exampel average([1, 2, 3, 4, 6])
+#  #=> 3,2
+#
+# Returns average of array
+
 def average(arr)
     output = 0
     i = 0
