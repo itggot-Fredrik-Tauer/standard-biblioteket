@@ -21,5 +21,3 @@ def left_strip(str)
     end
     return output
 end
-
-p left_strip(" Walla\n")
