@@ -6,7 +6,6 @@
 # #=> 55
 #
 # Returns the sum of all numbers before num
-
 def sum_to(num)
     i = num
     output = 0
@@ -16,5 +15,3 @@ def sum_to(num)
     end
     return output
 end
-
-p sum_to(10)

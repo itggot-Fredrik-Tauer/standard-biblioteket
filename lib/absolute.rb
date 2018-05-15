@@ -1,3 +1,5 @@
+# Public - If the inputted integer is negative it returns the positive version
+# 
 # input - The interger to be absoluted
 # 
 #  Example
@@ -5,7 +7,6 @@
 #  #=> 10
 #
 #  Returns absolute of input 
-
 def absolute(input)
     if input < 0
         output = input * -1
@@ -14,5 +15,3 @@ def absolute(input)
     end
     return output
 end
-
-p absolute(10)

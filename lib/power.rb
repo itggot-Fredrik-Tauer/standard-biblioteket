@@ -7,7 +7,6 @@
 # #=> 125
 #
 # Returns the power of num1 as the base and num2 as the exponent
-
 def power(num1, num2)
     i = 1
     output = num1
@@ -17,5 +16,3 @@ def power(num1, num2)
     end
     return output
 end
-
-p power(5, 3)

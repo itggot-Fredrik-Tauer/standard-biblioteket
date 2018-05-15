@@ -7,7 +7,6 @@
 # #=> 1
 #
 # Returns smallest of two numbers
-
 def min_of_two(num1, num2)
     if num1 < num2
         return num1
@@ -15,5 +14,3 @@ def min_of_two(num1, num2)
         return num2
     end
 end
-
-p min_of_two(4, 3)

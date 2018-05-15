@@ -6,7 +6,6 @@
 # #=> false
 #
 # Returns true or false depending on if the string is empty
-
 def is_empty(str)
     if str[0] == nil
         return true
@@ -14,7 +13,3 @@ def is_empty(str)
         return false
     end
 end
-
-str = "w"
-
-p is_empty(str)

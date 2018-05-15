@@ -6,7 +6,6 @@
 # #=> false
 #
 # Returns true or false depending on if input is negative
-
 def is_negative(input)
     if input < 0
         return false
@@ -14,5 +13,3 @@ def is_negative(input)
         return true
     end
 end
-
-p is_negative(5)

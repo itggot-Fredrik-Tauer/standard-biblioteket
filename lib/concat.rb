@@ -1,3 +1,5 @@
+# Public - Puts two arrays together
+# 
 # arr1 - first array of the concatination
 # arr2 - second array of the concatination
 #
@@ -7,7 +9,6 @@
 # #=> [1, 2, 3, 4, 5, 6]
 #
 # Returns concatination of two arrays
-
 def concat(arr1, arr2)
     i = 0
     output = arr1.dup
@@ -17,8 +18,3 @@ def concat(arr1, arr2)
     end
     return output
 end
-
-arr1 = [1, 2, 3]
-arr2 = [4, 5, 6]
-
-p concat(arr1, arr2)

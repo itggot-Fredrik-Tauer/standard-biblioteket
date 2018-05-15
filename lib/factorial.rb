@@ -6,7 +6,6 @@
 # #=> 120
 #
 # Returns factorial of num
-
 def factorial(num)
     i = num
     output = 1
@@ -16,5 +15,3 @@ def factorial(num)
     end
     return output
 end
-
-p factorial(5)

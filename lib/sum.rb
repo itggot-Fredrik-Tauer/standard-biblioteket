@@ -6,7 +6,6 @@
 # #=> 15
 #
 # Returns the summarised version of the intergers inside arr 
-
 def sum(arr)
     output = 0
     i = 0
@@ -16,7 +15,3 @@ def sum(arr)
     end
     return output
 end
-
-arr = [1, 2, 3, 4, 5]
-
-p sum(arr)

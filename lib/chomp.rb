@@ -1,3 +1,5 @@
+# Public - Removes \n from a string
+# 
 # input - string to be chomped
 #
 # Example
@@ -6,7 +8,6 @@
 # #=> Walla
 #
 # Returns a version of input where \n doesn't exist
-
 def chomp(input)
     output = ""
     i = 0
@@ -16,8 +17,3 @@ def chomp(input)
     end
     return output
 end
-
-input = "Walla\n"
-
-p chomp(input)
-        

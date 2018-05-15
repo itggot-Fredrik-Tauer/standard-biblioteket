@@ -14,5 +14,3 @@ def is_odd(input)
         return true
     end
 end
-
-p is_odd(3)

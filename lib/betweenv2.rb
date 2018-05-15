@@ -1,3 +1,5 @@
+# Public - Improved version of original between
+# 
 # num1 - first number to be compared
 # num2 - second number to be compared
 # num3 - third number to be compared
@@ -7,7 +9,6 @@
 # #=> 3
 #
 # Returns which of three given inputs is in between each other
-
 def is_between(num1, num2, num3)
     if num1 >= num2
         if num1 <= num3
@@ -28,5 +29,3 @@ def is_between(num1, num2, num3)
         return num1
     end
 end
-
-p is_between(3, 1, 4)

@@ -1,3 +1,5 @@
+# Public - Appends something to the end of an array
+# 
 # arr - Array to be appended
 #
 # Example
@@ -5,12 +7,7 @@
 # #=> [1, 2, 3, 4]
 #
 # Returns appended array
-
 def append(arr)
     output = arr.push (4)
     return output
 end
-
-arr = [1, 2, 3]
-
-p append(arr)

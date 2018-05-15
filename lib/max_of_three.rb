@@ -8,7 +8,6 @@
 # #=> 3
 #
 # Returns largest of three numbers
-
 def max_of_three(num1, num2, num3)
     if num1 > num2
         if num1 > num3
@@ -23,5 +22,3 @@ def max_of_three(num1, num2, num3)
         return num3
     end
 end
-
-p max_of_three(3, 2, 1)

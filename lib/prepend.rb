@@ -7,7 +7,6 @@
 # #=> [11, 1, 7, 5]
 #
 # Returns a new array where num is at the start of arr
-
 def prepend(arr, num)
     output = []
     output << num
@@ -18,7 +17,3 @@ def prepend(arr, num)
     end
     return output
 end
-
-arr = [1, 7, 5]
-
-p prepend(arr, 11)

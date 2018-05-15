@@ -6,7 +6,6 @@
 # #=> true
 #
 # Retruns true or false depending on if the input is even
-
 def is_even(input)
     if input % 2 == 0
         return true
@@ -14,5 +13,3 @@ def is_even(input)
         return false
     end
 end
-
-p is_even(-10)

@@ -7,7 +7,6 @@
 # #=> true
 #
 # Returns true or false depending on if str ends with char
-
 def ends_with(str, char)
     if str[str.length - 1] == char
         return true
@@ -15,8 +14,3 @@ def ends_with(str, char)
         return false
     end
 end
-
-str = "Walla"
-char = "a"
-
-p ends_with(str, char)
